@@ -1,0 +1,14 @@
+* [[https://github.com/CeresDB/ceresdb][CeresDB]] Go SDK example
+** How to run
+- Start CeresDB server first
+#+begin_src
+docker run -d --name ceresdb-server \
+  -p 8831:8831 \
+  -p 3307:3307 \
+  -p 5440:5440 \
+  ceresdb/ceresdb-server:nightly-20230223-ce9fa87
+#+end_src
+- Then run with
+#+begin_src bash
+go run main.go
+#+end_src
