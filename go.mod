@@ -2,10 +2,10 @@ module example
 
 go 1.17
 
-require github.com/CeresDB/ceresdb-client-go v1.0.1
+require github.com/CeresDB/ceresdb-client-go v1.1.0
 
 require (
-	github.com/CeresDB/ceresdbproto/golang v0.0.0-20230209095436-43939799b2e6 // indirect
+	github.com/CeresDB/ceresdbproto/golang v0.0.0-20230228090856-37ba6214b131 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/flatbuffers v2.0.0+incompatible // indirect

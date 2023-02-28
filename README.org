@@ -6,9 +6,13 @@ docker run -d --name ceresdb-server \
   -p 8831:8831 \
   -p 3307:3307 \
   -p 5440:5440 \
-  ceresdb/ceresdb-server:nightly-20230223-ce9fa87
+  ceresdb/ceresdb-server:nightly-20230228-0f9828f
 #+end_src
 - Then run with
-#+begin_src bash
+#+begin_src bash :results verbatim :exports both
 go run main.go
 #+end_src
+
+#+RESULTS:
+: Write resp = {Success:2 Failed:0}
+: Query resp = {SQL:select * from demo AffectedRows:0 Rows:[{fields:[tsid timestamp name value] values:[{dataType:9 dataValue:4108029857986191853} {dataType:5 dataValue:1677586031514} {dataType:2 dataValue:test_tag1} {dataType:3 dataValue:1}]} {fields:[tsid timestamp name value] values:[{dataType:9 dataValue:4108029857986191853} {dataType:5 dataValue:1677586102988} {dataType:2 dataValue:test_tag1} {dataType:3 dataValue:1}]} {fields:[tsid timestamp name value] values:[{dataType:9 dataValue:4108029857986191853} {dataType:5 dataValue:1677586120098} {dataType:2 dataValue:test_tag1} {dataType:3 dataValue:1}]}]}

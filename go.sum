@@ -6,8 +6,12 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/CeresDB/ceresdb-client-go v1.0.1 h1:lWF8DF5S+tNPX+y/OlrHBdGRpXcDZlXFXdIte6MuiIY=
 github.com/CeresDB/ceresdb-client-go v1.0.1/go.mod h1:msZb4XO8ak9/JzOSU9ytdWR8YbhTZ1GCEIRSmnZ+Gn4=
+github.com/CeresDB/ceresdb-client-go v1.1.0 h1:iCBb03OubOA7NCLSiYBis9lMaR3nu6s0wipUulEeonU=
+github.com/CeresDB/ceresdb-client-go v1.1.0/go.mod h1:bZneg5VvvfSZhCnlKO0SjIoPY+fLKnFwhPb3gijLorE=
 github.com/CeresDB/ceresdbproto/golang v0.0.0-20230209095436-43939799b2e6 h1:EqRcuCuMDc+x5vWbyut236dR7RRwWjFOpYjwbi8mNFc=
 github.com/CeresDB/ceresdbproto/golang v0.0.0-20230209095436-43939799b2e6/go.mod h1:qLTh6jtSu2ZLIFsU3iiDIKvkrQvyY/Csg6Mk0Ub0QZ4=
+github.com/CeresDB/ceresdbproto/golang v0.0.0-20230228090856-37ba6214b131 h1:ePzWeIoLOT4FsdjNrmEVrrtm412H2xHM6ZNLamB0bqk=
+github.com/CeresDB/ceresdbproto/golang v0.0.0-20230228090856-37ba6214b131/go.mod h1:qLTh6jtSu2ZLIFsU3iiDIKvkrQvyY/Csg6Mk0Ub0QZ4=
 github.com/ajstarks/svgo v0.0.0-20180226025133-644b8db467af/go.mod h1:K08gAheRH3/J6wwsYMMT4xOr94bZjxIelGM0+d/wbFw=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 h1:q4dksr6ICHXqG5hm0ZW5IHyeEJXoIJSOZeBLmWPNeIQ=
